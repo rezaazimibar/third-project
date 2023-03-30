@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lalezar", cursive;
 }
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -43,4 +52,9 @@ body {
 }
 .mainNavbar > a {
   margin: 0rem 0.1rem;
+}
+.bg-gradient {
+  background-color: steelblue;
+  
+  
 }
