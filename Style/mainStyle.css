@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.bg-mainDark {
+  background-color: #111111;
+}
+
+.topHeader ul {
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+.topHeader ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.topHeader ul li:not(:last-child) {
+  border-right: 1px solid rgb(122, 122, 122);
+}
+.social i {
+  margin-left: 0.3rem;
+}
