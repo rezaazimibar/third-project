@@ -12,14 +12,22 @@ body {
 }
 
 .topHeader ul {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
   margin: 0;
 }
-.topHeader ul li {
+.topHeader ul li:not(:first-child) {
   list-style: none;
   display: inline-block;
   font-size: 1rem;
   padding: 0 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.topHeader ul li:first-child {
+  list-style: none;
+  display: inline-block;
+  font-size: 1rem;
+  padding-right: 0.5rem;
   text-align: center;
   cursor: pointer;
 }
@@ -28,4 +36,11 @@ body {
 }
 .social i {
   margin-left: 0.3rem;
+  padding: 0;
+}
+.mainNavbar {
+  font-weight: bold;
+}
+.mainNavbar > a {
+  margin: 0rem 0.1rem;
 }
