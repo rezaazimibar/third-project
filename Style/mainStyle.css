@@ -11,9 +11,19 @@ h4,
 h5,
 h6 {
   font-family: "Lalezar", cursive;
+  color: #111111;
 }
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: slategrey;
+}
+a {
+  text-decoration: none;
+}
+#curoser {
+  color: white;
+}
+#curoser h1 {
   color: white;
 }
 .bg-mainDark {
@@ -21,6 +31,7 @@ body {
 }
 
 .topHeader ul {
+  color: white;
   padding: 0.5rem 0rem;
   margin: 0;
 }
@@ -53,8 +64,82 @@ body {
 .mainNavbar > a {
   margin: 0rem 0.1rem;
 }
-.bg-gradient {
-  background-color: steelblue;
-  
-  
+
+#grad {
+  background: rgb(8, 86, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 86, 162, 1) 0%,
+    rgba(60, 16, 138, 1) 100%
+  );
+}
+.text-grad {
+  margin-bottom: 0;
+  font-size: 60px;
+  background: rgb(8, 86, 162);
+  background: linear-gradient(
+    270deg,
+    rgba(8, 86, 162, 1) 0%,
+    rgba(60, 16, 138, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color-border {
+  width: 20%;
+}
+.normal-h,
+.normal-p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #111111;
+}
+.bg-img1{
+  background-image: url("../Media/images/photo\ bg\ 1.jpg");
+}
+.bg-img2{
+  background-image: url("../Media/images/phot-bg-2.jpg");
+}
+.bg-img3{
+  background-image: url("../Media/images/photo-bg-3.jpg");
+}
+.bg-img4{
+  background-image: url("../Media/images/photo-bg-4.jpg");
+}
+.photo-bg {
+  position: relative;
+  height: 423px;
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+.photo-bg::after {
+  background: rgb(8,86,162);
+  background: linear-gradient(180deg, rgba(8,86,162,0) 31%, rgba(0, 0, 0, 0.925) 100%);
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.photo-bg > div {
+  position: absolute;
+  bottom: 10px;
+}
+.photo-bg h3 {
+  color: white;
+  transition: all 0.4s ease;
+}
+.photo-bg a {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 0;
+  display: none;
+}
+.photo-bg:hover a {
+  display: block;
+}
+.photo-bg:hover h3 {
+  transform: translateY(-10px);
+  display: block;
 }
