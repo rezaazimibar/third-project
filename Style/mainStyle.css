@@ -93,16 +93,16 @@ a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #111111;
 }
-.bg-img1{
+.bg-img1 {
   background-image: url("../Media/images/photo\ bg\ 1.jpg");
 }
-.bg-img2{
+.bg-img2 {
   background-image: url("../Media/images/phot-bg-2.jpg");
 }
-.bg-img3{
+.bg-img3 {
   background-image: url("../Media/images/photo-bg-3.jpg");
 }
-.bg-img4{
+.bg-img4 {
   background-image: url("../Media/images/photo-bg-4.jpg");
 }
 .photo-bg {
@@ -112,8 +112,12 @@ a {
   z-index: 2;
 }
 .photo-bg::after {
-  background: rgb(8,86,162);
-  background: linear-gradient(180deg, rgba(8,86,162,0) 31%, rgba(0, 0, 0, 0.925) 100%);
+  background: rgb(8, 86, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 86, 162, 0) 31%,
+    rgba(0, 0, 0, 0.925) 100%
+  );
   position: absolute;
   content: " ";
   width: 100%;
@@ -142,4 +146,42 @@ a {
 .photo-bg:hover h3 {
   transform: translateY(-10px);
   display: block;
+}
+.bg-days-1 {
+  background-image: url(../Media/images/days-bg-1.jpg);
+  
+}
+.bg-days-2 {
+  position: relative;
+  background-image: url(../Media/images/days-bg-2.jpg);
+  
+}
+.bg-days-3 {
+  background-image: url(../Media/images/days-bg-3.jpg);
+}
+.our-work {
+  padding: 1rem;
+  height: 400px;
+}
+.our-work > span {
+  border-radius: 0;
+  background-color: #ff3d55 !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 1rem;
+  color: white !important;
+}
+.myCard{
+  box-shadow: 6px 6px 54px rgb(167, 167, 167) ;
+  position: absolute;
+  bottom: -5rem;
+  right: 3rem;
+}
+.myCard>p{
+  color: gray !important ;
+}
+.our-work h2,
+.our-work p {
+  margin-bottom: 0;
+  
 }
