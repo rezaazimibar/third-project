@@ -149,12 +149,10 @@ a {
 }
 .bg-days-1 {
   background-image: url(../Media/images/days-bg-1.jpg);
-  
 }
 .bg-days-2 {
   position: relative;
   background-image: url(../Media/images/days-bg-2.jpg);
-  
 }
 .bg-days-3 {
   background-image: url(../Media/images/days-bg-3.jpg);
@@ -171,17 +169,106 @@ a {
   padding: 1rem;
   color: white !important;
 }
-.myCard{
-  box-shadow: 6px 6px 54px rgb(167, 167, 167) ;
+.myCard {
+  box-shadow: 6px 6px 20px rgb(112, 112, 112);
   position: absolute;
   bottom: -5rem;
   right: 3rem;
 }
-.myCard>p{
+.myCard > p {
   color: gray !important ;
 }
 .our-work h2,
 .our-work p {
   margin-bottom: 0;
+}
+#opinion {
+  margin-top: 10rem;
+  background-color: #3d348d;
+}
+
+
+/* crosec */
+/* .tester_new {
+	padding: 20px 0 100px;
+} */
+
+.tester_new .carousel-item p {
+	color: rgb(255, 255, 255);
+	line-height: 28px;
+	letter-spacing: 1px;
+} 
+
+
+.tester_new .carousel-indicators{
+  justify-content: start;
+  margin: 0;
+}
+.tester_new .carousel-indicators li {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-image: url(https://images.unsplash.com/photo-1586430921668-e095e5243daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #f1f2f3;
+	opacity: 0.4;
+	margin: 0 10px;
+  cursor:pointer;
+}
+.tester_new .carousel-indicators li:nth-child(2) {
+	background-image: url(https://images.unsplash.com/photo-1529284607059-de6f2f0e661f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+}
+.tester_new .carousel-indicators li:nth-child(3) {
+	background-image: url(https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+}
+.carousel-indicators {
+	bottom: -90px;
+}
+.tester_new .carousel-indicators .active {
+	opacity: 1;
+}
+.opinion-icon{
+ 
+  font-size: 4rem;
+}
+.logos{
+  margin-top: 8rem;
+}
+.blog-card{
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+}
+.blog-card h5{
+  margin-left: 1rem;
+}
+.blog-card img{
+  border-radius: 0;
+}
+.span-card{
   
+  border-right: 1px solid #4b4b4b;
+border-radius: 0;
+  font-weight: 100;
+  
+}
+
+.span-card>p{
+
+  margin: 0;
+  font-weight: 100;
+}
+.span-card .p-header{
+  font-size: 2rem;
+  font-weight: thin;
+}
+.display-4{
+  color: #111111;
+}
+form input , form textarea ,select{
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid #707070;
 }
