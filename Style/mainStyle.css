@@ -295,18 +295,41 @@ footer {
 .info-site > h4 {
   color: #d8d8d8;
 }
-.info-site ul{
+.info-site ul {
   padding-left: 0;
 }
 .info-site ul li {
   list-style: none;
 }
-.info-site ul li >i{
-  padding-right: .3rem;
+.info-site ul li > i {
+  padding-right: 0.3rem;
 }
-.footer-list ul{
+.footer-list ul {
   padding-left: 0;
 }
-.footer-list ul li{
+.footer-list ul li {
   list-style: none;
 }
+.button-footer {
+  color: #999999;
+}
+.button-footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0.8rem;
+}
+.button-footer ul :not(:last-child) {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  list-style: none;
+  display: inline-block;
+  border-right: 0.5px solid #313131;
+}
+.footer-social i {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.footer-social :not(:last-child){
+  border-right: 0.2px solid #353535;
+};
